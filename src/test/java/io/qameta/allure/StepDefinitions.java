@@ -1,5 +1,6 @@
 package io.qameta.allure;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,16 +9,44 @@ import org.junit.jupiter.api.Assertions.*;
 
 public class StepDefinitions {
 
-    @When("today is Sunday")
-    public void todayIsSunday() {
+
+    @When("today is Sunday, but")
+    public void todayIsSundayBut() {
     }
 
-    @Given("I ask whether it's Friday yet")
-    public void askWhetherItsFridayYet() {
+    @Given("There is a problem")
+    public void problem() {
+    }
+
+    @Given("There is a question")
+    public void question() {
+    }
+
+    @When("I need to add ploskiy JSON")
+    public void ploskiyJson(DataTable table) {
     }
 
     @Then("I should be told {string}")
     public void shouldBeTold(String text) {
     }
 
+    @When("print string \"str\"")
+    public void blahblah1() {
+    }
+
+    @When("print string \"allure\"")
+    public void blahblah2() {
+    }
+
+    @When("print string \"test\"")
+    public void blahblah3() {
+    }
+
+    @Given("today is Sunday")
+    public void method1() {
+    }
+
+    @When("I ask whether it's Friday yet")
+    public void method2() {
+    }
 }
