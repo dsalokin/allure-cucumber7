@@ -1,6 +1,7 @@
 Feature: Is it ploskiy json?
   Everybody wants to know where we can find ploskiy json
 
+  @allure.label.layer=mobile_weeeeeeeeeeeeeeeeeeeeb
   Scenario: There is a problem
     Given There is a question
     When I need to add ploskiy JSON
