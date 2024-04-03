@@ -1,9 +1,8 @@
-Feature: Parameters?
+Feature: Parameters without any dynamic name
   Everybody wants to know how to add parameters
 
-  @allure.id=282733
-  @allure.label.layer=mobile_web
-  Scenario Outline: print string <str>
+      @allure.label.layer=mobile_web
+  Scenario Outline: print string test or allure
     When print string "<str>"
     Examples:
       | str    |

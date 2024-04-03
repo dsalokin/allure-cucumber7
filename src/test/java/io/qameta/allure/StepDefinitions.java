@@ -49,4 +49,11 @@ public class StepDefinitions {
     @When("I ask whether it's Friday yet")
     public void method2() {
     }
+    @When("I ask whether it's Monday yet")
+    public void method3() {
+    }
+    @When("I ask whether it's Tuesday yet")
+    public void method4() {
+    }
+
 }
